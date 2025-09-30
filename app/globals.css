@@ -1,0 +1,455 @@
+
+ body{
+    background-color: rgb(209, 205, 200) !important;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+
+}
+.paragraph{
+text-align: center;
+ font-size: 15px;
+ font-family: "Jost", sans-serif !important;
+ padding-top: 25px;
+
+}
+#navbarNav{
+    background-color: #f5f5f7cc ;
+}
+
+.navbar-nav {
+  margin-left: 0; 
+}
+
+.dropdown-custom {
+  position: relative;
+}
+
+
+.mega-menu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width:20vw;
+  background: #fff;
+  padding: 20px 20px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  z-index: 1000;
+  color: #000;
+}
+
+.mega-menu a {
+  display: block;        /* makes each link on its own line */
+  margin-bottom: 5px;   /* adds space between links */
+  color: #1d1d1f;
+  font-size: 15px;
+  text-decoration: none;
+transition: all 0.2s ease ;
+}
+
+.mega-menu a:hover {
+  color: #157adf;        /* Apple blue hover */
+text-decoration:underline;
+transform: scale(1.1);
+}
+
+
+.mega-menu .col {
+  min-width: 200px;
+}
+
+.dropdown-custom:hover .mega-menu {
+  display: block;
+ 
+}
+
+.nav-link {
+  font-weight: 500 !important;
+  transition: color 0.3s ease;
+  color: rgba(0, 0, 0, 0.562);
+  text-decoration: none !important;
+}
+
+
+nav a {
+  color: #1d1d1f;
+  font-weight: 400;
+  transition: color 0.3s ease;
+}
+
+.navbar-nav  :hover{
+  color: #0090e3;
+}
+
+.hero{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #000;
+    color: white;
+    font-size: 20px;
+    padding-top: 20px;
+font-family: "Roboto", sans-serif; 
+}
+
+.hero p {
+    color: white;
+    font-size: 25px ;
+font-family: "Roboto", sans-serif; 
+margin-top: 0;
+}
+.hero h1 {
+  margin-bottom: 1px; 
+  font-size: 3.5rem;
+} 
+
+.hero-buttons {
+  display: flex;
+  gap: 15px;
+  margin-top: 15px;
+}
+
+.hero-buttons a {
+  display: inline-block;
+  border-radius: 25px;
+  padding: 10px 25px;
+  font-size: 16px;
+  font-weight: 500;
+  text-decoration: none;
+  transition: 0.3s ease;
+}
+
+.btn-learn {
+  background-color: #0071e3;
+  color: white;
+  border: none;
+}
+
+.btn-buy {
+  background-color:none;
+  color: #0071e3;
+  border: 2px solid #0071e3;
+}
+
+.btn-buy:hover {
+  background-color: #0071e3;
+  color: white;
+}
+
+ .hero img , .hero1 img  , .hero2 img  {
+  display: block;
+  width: 100%;
+  height: auto;
+} 
+
+
+
+.hero1 {
+  position: relative;
+  text-align: center;
+  color: black;
+ 
+}
+
+
+.hero1 h1,
+.hero1 p,
+.hero1 .hero-buttons {
+  position: absolute; 
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.hero1 h1 {
+  top: 5%;  
+  font-size: 4rem;
+}
+
+.hero1 p {
+  top: 15%;
+  font-size: 1.5rem;
+}
+
+.hero1 .hero-buttons {
+  top: 60%;
+  display: flex;
+  gap: 15px;
+}
+
+.hero2{
+    position: relative;
+    text-align: center;
+   color: #000;
+}
+
+.hero2 p, .hero2 h1 , .hero2 .hero-buttons{
+    position: absolute;
+    left: 40%;
+}
+.hero2 h1{
+    top:4%;
+    font-size: 4rem;
+}
+
+.hero2 p{
+    top: 12%;
+    left: 45%;
+     font-size: 1.5rem;
+}
+
+
+.hero2 .hero-buttons {
+  top: 15%;
+  display: flex;
+  gap: 20px;
+  
+}
+
+ 
+
+.hero, .hero1 ,.hero2 {
+  margin-bottom: 40px;
+}
+
+
+.product-block {
+  position: relative;
+ display: flex;
+ background-repeat: no-repeat;
+ background-size: cover;
+ background-position: center;
+ flex-direction: column;
+align-items: center;
+justify-content:  flex-start;
+color: black;
+  text-align: center;
+  height: 600px;
+  padding-top: 40px;
+}
+.airpods {
+  background-image: url('/images/s-l400.jpg');
+}
+.product-block .hero-buttons{
+  position: absolute;
+  top: 20%;
+}
+
+.watches {
+  background-image: url('/images/product_landing_endframe__eaytrp6zz6c2_large.jpg');
+}
+
+.watches p{
+  position: absolute;
+ left: 10%;
+ top: 12%;
+ font-style: italic;
+}
+.watches h1{
+   position: absolute;
+ left: 10%;
+ top: 5%;
+ font-size: 2.5rem;
+}
+.watches .hero-buttons{
+   position: absolute;
+ left: 8%;
+ top:15%;
+ 
+}
+.watches-se3{
+  background-image: url('/images/Apple-Watch-SE-3-hero-250909-lp.jpg.news_app_ed.jpg');
+  position: relative;
+  height: 800px;
+}
+.watches-se3 h1,
+.watches-se3 p,
+.watches-se3 .hero-buttons {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.watches-se3 h1{
+  top: 5%;;
+   font-size: 3rem;
+   left: 30%;
+}
+.watches-se3 p{
+  top: 12%;
+  left: 26%;
+  font-size: 1rem;
+  font-style: italic;
+}
+.watches-se3 .hero-buttons{
+  top: 15%;
+  left: 25%;
+}
+.watches-ultra{
+  background-image: url('/images/Apple-Watch-Ultra-3-hero-250909_big.jpg.large.jpg');
+  position: relative;
+  height: 800px;
+}
+
+.watches-ultra h1,
+.watches-ultra p,
+.watches-ultra .hero-buttons {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.watches-ultra h1{
+  top: 80%;;
+   font-size: 2rem;
+}
+.watches-ultra p{
+  top: 85%;
+  font-size: 1rem;
+  font-style: italic;
+}
+.watches-ultra .hero-buttons{
+  top: 90%;
+}
+.extra-deals{
+  background-image: url('/images/r1806_black_pdp_image_position-5__en-in_4_1.avif');
+  position: relative;
+  height: 700px;
+}
+.extra-deals h1{
+  font-size: 3rem;
+}
+.extra-deals p{
+  position: absolute;
+  font-style: italic;
+  font-size: 1rem;
+  top: 22%;
+}
+.buttons{
+  display: inline;
+  border-radius: 25px;
+ border: 2px solid #0071e3;
+ background-color: #0071e3;
+  padding: 10px 20px;
+  position: absolute;
+  top: 80%;
+
+}
+.buttons .find-deal{
+  color: white;
+  text-decoration: none;
+   font-size: 16px;
+font-weight: 500;
+
+}
+.trade-in{
+  background-image: url('/images/iPhone-trade-in-16x9.jpg');
+  height: 700px;
+  position: relative;
+}
+.trade-in h1{
+  font-size: 3rem;
+  position: absolute;
+  top: 8%;
+}
+.trade-in p{
+  font-style: italic;
+  font-size: 1rem;
+  position: absolute;
+  top: 20%;
+}
+.buttons .get-estimate{
+  color: white;
+  text-decoration: none;
+   font-size: 16px;
+font-weight: 500;
+
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  filter: invert(1); /* flips white to black */
+}
+.agreement p{
+font-size: 12px;
+color: gray;
+}
+.slide{
+padding-bottom: 30px;
+}
+
+.footer {
+  font-size: 15px;
+}
+.footer h6 {
+  margin-bottom: 10px;
+}
+.footer a {
+  text-decoration: none;
+  color: rgba(78, 78, 78, 0.801) !important;
+}
+.footer a:hover {
+  text-decoration: underline;
+}
+.contact{
+  font-size: 15px;
+  color: rgb(128, 128, 128) !important;
+}
+.footer-links {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+  margin: 0;
+  padding: 0;
+}
+
+.footer-links a {
+  color: #515154 !important;
+  text-decoration: none;
+  font-size: 15px;
+  transition: color 0.2s ease;
+}
+
+.footer-links a:hover {
+  color: #000;
+  text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  .hero h1 , .hero1 h1 , .hero2 h1 {
+    font-size: 1.5rem;
+  }
+  .hero img ,.hero1 img , .hero2 img {
+    max-width: 100%;
+    height: auto;
+  }
+  .mega-menu {
+    width: 100% !important;
+    padding: 1rem;
+  }
+
+.hero1 p {
+  top: 18%;
+  font-size: 0.8rem;
+}
+.hero2 .hero-buttons {
+  top: 60%;
+  display: flex;
+  gap: 20px;
+  left: auto;
+  right: auto;
+  justify-content: center;
+align-items: center;
+  
+}
+.hero2 p{
+text-align: center;
+font-size: 0.8rem;
+}
+.watches-ultra h1{
+  top: 75%;
+}
+.extra-deals h1{
+font-size: 30px;
+}
+.extra-deals p{
+  top: 18%;
+}
+  
+}
